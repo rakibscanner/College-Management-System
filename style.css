@@ -1,0 +1,44 @@
+/* ============navbar================ */
+nav .navbar-nav{
+     background: $teal-900 ;
+}
+nav .navbar-brand{
+    font-size: 25px;
+}
+.navbar-nav .nav-link{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-toggler{
+    outline: none;
+    padding: none;
+}
+/* ==============carousel================ */
+.carousel-inner .carousel-item{
+    height: 670px;
+    width: 100% ;
+    background-position: center;
+
+}
+.carousel-inner .carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 40%;
+    left: 0;
+    right: 0;
+    font-size: 25px;
+    
+}
+.carousel-inner .carousel-caption h5{
+    color: $green-900;
+    font-size: 40px;
+   
+}
+.carousel-inner .carousel-caption strong{
+    color:#2b0c65;
+
+}
